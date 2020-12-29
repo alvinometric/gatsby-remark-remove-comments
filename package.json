@@ -1,0 +1,29 @@
+{
+  "name": "gatsby-remark-remove-comments",
+  "version": "0.1.0",
+  "description": "Gatsby plugin for Remark to remove HTML comments from the markdown output",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "unified",
+    "remark",
+    "comments"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "author": "Alvin <hello@alvin.codes> (https://alvin.codes)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alvinometric/gatsby-remark-remove-comments.git"
+  },
+  "homepage": "https://github.com/alvinometric/gatsby-remark-remove-comments",
+  "bugs": {
+    "url": "https://github.com/alvinometric/gatsby-remark-remove-comments/issues"
+  },
+  "dependencies": {
+    "remark-remove-comments": "^0.1.3"
+  }
+}
