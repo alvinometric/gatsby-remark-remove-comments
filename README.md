@@ -32,6 +32,10 @@ In `gatsby-config.js`, add:
   };
 ```
 
+## Usage with MDX
+
+If you're using [Gatsby with MDX](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx/), you don't need this plugin. You can use [`remark-remove-comments`](https://github.com/alvinometric/remark-remove-comments) and pass it directly as an option in the [`remarkPlugins`](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx/#remark-plugins) array.
+
 ## Use
 
 By default, in Remark, HTML comments in Markdown will appear in the output, this plugin removes them.
